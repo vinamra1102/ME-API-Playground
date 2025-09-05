@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div className="wrap">
       <h1>Me-API Playground</h1>
-      <p className="muted">Backend: {import.meta.env.VITE_API_BASE}</p>
+      <p>Backend: {import.meta.env.VITE_API_BASE}</p>
       <Profile />
       <Skills />
       <Projects />

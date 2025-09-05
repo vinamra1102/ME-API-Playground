@@ -1,11 +1,8 @@
-:root {
-    color-scheme: light dark;
-}
-
 body {
-    font-family: system-ui, Arial, sans-serif;
+    font-family: sans-serif;
     margin: 0;
     padding: 24px;
+    background: #f9f9f9;
 }
 
 .wrap {
@@ -14,45 +11,19 @@ body {
 }
 
 .card {
-    background: rgba(0, 0, 0, 0.05);
+    background: white;
     padding: 16px;
-    border-radius: 12px;
+    border-radius: 8px;
     margin: 16px 0;
-}
-
-.row {
-    display: flex;
-    gap: 8px;
-    margin: 8px 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 input {
-    padding: 8px;
-    flex: 1;
+    padding: 6px;
+    margin-right: 8px;
 }
 
 button {
-    padding: 8px 12px;
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
-}
-
-.muted {
-    opacity: .75;
-    font-size: .95rem;
-}
-
-.tags {
-    margin-top: 6px;
-    display: flex;
-    gap: 6px;
-    flex-wrap: wrap;
-}
-
-.tag {
-    font-size: .8rem;
-    padding: 2px 8px;
-    border-radius: 9999px;
-    background: rgba(0, 0, 0, 0.1);
+    padding: 6px 12px;
+    margin-right: 8px;
 }
