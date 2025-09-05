@@ -1,0 +1,58 @@
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    font-family: system-ui, Arial, sans-serif;
+    margin: 0;
+    padding: 24px;
+}
+
+.wrap {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.05);
+    padding: 16px;
+    border-radius: 12px;
+    margin: 16px 0;
+}
+
+.row {
+    display: flex;
+    gap: 8px;
+    margin: 8px 0;
+}
+
+input {
+    padding: 8px;
+    flex: 1;
+}
+
+button {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.muted {
+    opacity: .75;
+    font-size: .95rem;
+}
+
+.tags {
+    margin-top: 6px;
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.tag {
+    font-size: .8rem;
+    padding: 2px 8px;
+    border-radius: 9999px;
+    background: rgba(0, 0, 0, 0.1);
+}
